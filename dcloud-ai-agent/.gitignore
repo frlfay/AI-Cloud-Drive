@@ -1,0 +1,166 @@
+# ============================
+# Python 相关
+# ============================
+
+# 字节编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展
+*.so
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# pip 安装日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ============================
+# 虚拟环境
+# ============================
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+env.bak/
+venv.bak/
+
+# ============================
+# IDE 和编辑器
+# ============================
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ============================
+# 系统文件
+# ============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ============================
+# 日志文件
+# ============================
+*.log
+logs/
+app.log
+
+# ============================
+# 环境配置文件 (包含敏感信息)
+# ============================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================
+# Docker 相关
+# ============================
+*.pid
+*.seed
+*.pid.lock
+
+# ============================
+# 数据库
+# ============================
+*.db
+*.sqlite3
+
+# ============================
+# 临时文件
+# ============================
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ============================
+# Milvus 向量数据库
+# ============================
+milvus_data/
+*.milvus
+
+# ============================
+# 模型和数据文件
+# ============================
+*.h5
+*.pkl
+*.model
+*.onnx
+data/
+models_data/
